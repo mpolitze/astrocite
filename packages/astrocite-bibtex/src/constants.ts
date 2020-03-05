@@ -48,6 +48,7 @@ export const FIELD_MAP: ReadonlyMap<string, keyof Data> = new Map([
     ['school', 'publisher'],
     ['series', 'collection-number'],
     ['title', 'title'],
+    ['type', 'genre']
     ['url', 'URL'],
     ['volume', 'volume'],
 ]);
